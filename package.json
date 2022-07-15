@@ -1,0 +1,23 @@
+{
+  "name": "node_addon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "napi": {
+    "name": "fib",
+    "triples": {
+      "defaults": true,
+      "addition": [
+        "x86_64-unknown-linux-musl",
+        "x86_64-unknown-freebsd",
+        "aarch64-unknown-linux-gnu"
+      ]
+    }
+  }
+}

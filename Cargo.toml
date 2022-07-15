@@ -1,0 +1,15 @@
+[package]
+name = "node_addon"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+napi = "2.6.3"
+napi-build = "2.0.1"
+napi-derive = "2.6.0"
+
+[build-dependencies]
+napi-build = "2.0.1"
