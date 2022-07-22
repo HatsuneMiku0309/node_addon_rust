@@ -27,7 +27,7 @@ I don't know --pipe ?
 
 ## Resource
 ```bash
-$ cargo install cargo-editor
+$ cargo install cargo-edit
 $ cargo add {lib_name}
 $ cargo update
 ```
